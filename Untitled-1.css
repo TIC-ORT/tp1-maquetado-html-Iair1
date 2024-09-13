@@ -130,5 +130,5 @@ width: 66.6667%;
     color: #676a71;
 }
 .gris{
-    color: #cecece;
+    color: #9a9a9a; /*lo dejé un poco más oscuro porque se veía muy poco siendo texto y no div */
 }
