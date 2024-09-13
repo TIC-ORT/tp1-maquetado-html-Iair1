@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+}
+.p1, .p2, .p10{
+color: #ffffff;
+font-size: 1em;
+}
+.top-header{
+    background-color: #475059;
+    margin: 0px;
+    height: 30%;
+}
+.header-arriba-abajo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hea{
+    height: 36%;
+}
+.tresP{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 50%;
+}
+.tresP > p{
+    margin-bottom: 0px;
+}
+.header-abajo{
+    background-color: #666a73;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70%;
+}
+.parrafos-header{
+width: 16%;
+margin-left: 0.7%;
+height: 80%;
+}
+.parrafos-header > p{
+    width: 100%;
+}
+h1, h3{
+    color: #ffc86d;
+}
+h3{
+    font-size: 1.17em;
+}
+h1, .p10{
+    margin-left: 2%;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    height: 64%;
+    width: 100%;
+}
+
+.princaside{
+    height: 100%;
+    width: 33.33333%;
+}
+.contenidoalcostado, .tercercontenidoalcostado{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.contenidoalcostado{
+    height: 29.16666666%;
+    background-color: #e6e4e5;
+    flex-direction: column;
+}
+.contenidoalcostado > p{
+    color: #686a73;
+}
+.tercercontenidoalcostado{
+    height: 33.3333%;
+    background-color: #ffc66e;
+}
+.tercercontenidoalcostado > p{
+    color: white;
+}
+.contenidoalcostado > p, .tercercontenidoalcostado > p{
+    width: 78%;
+    height: 60%;
+}
+.pjlp{
+    height: 4.166666666%;
+    width: 100%;
+    background-color: #ffc86d;
+}
+
+.elmainmasmain{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 66.6667%;
+}
+.parrafosmain{
+    width: 25%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creoqueesunaimagen, .creoqueesunaimagenamarilla{
+    width: 75%;
+    height: 45%;
+}
+.creoqueesunaimagen{
+    background-color: #e6e4e5;
+}
+.creoqueesunaimagenamarilla{
+    background-color: #ffc86d;
+}
+.negro, .gris{
+    font-size: 0.625em;
+    width: 75%;
+}
+.negro{
+    color: #676a71;
+}
+.gris{
+    color: #cecece;
+}
